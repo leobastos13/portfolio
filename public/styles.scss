@@ -1,0 +1,182 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: monogram;
+    src: url(monogram.ttf);
+}
+
+body {
+    font-family: monogram, monospace !important;
+    font-size: 2rem !important;
+    overflow: hidden !important;
+    background-color: #4f6591 !important;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#textbox {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 2vh;
+    min-height: 10vh;
+    background: white;
+    border-radius: 3px;
+    outline-style: solid ;
+    outline-color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    word-spacing: 0.2rem;
+    filter: drop-shadow(0 0 0.75rem rgb(112, 112, 112));
+}
+
+.uiText {
+    margin: 0;
+    user-select: none;
+    color: black;
+}
+
+.uiCloseBtn {
+    font-family: monogram, monospace;
+    border-style: none;
+    border-radius: 3px;
+    padding: 1rem;
+    font-size: inherit;
+}
+
+.btnContainer {
+    align-self: flex-end;
+    margin-top: 1rem ;
+}
+
+.Note {
+    position: absolute;
+    left: 1.5%;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(238, 238, 238);
+}
+
+.aboutTrigger {
+    position: absolute;
+    right: 10.5%;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.projectsTrigger {
+    position: absolute;
+    right: 1.5%;
+    top: 7vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.aboutTrigger a {
+    color: rgb(238, 238, 238) !important;
+    text-decoration: none !important;
+}
+
+.projectsTrigger a {
+    color: rgb(238, 238, 238) !important;
+    text-decoration: none !important;
+}
+
+.aboutTrigger a:hover {
+    text-decoration: underline !important;
+}
+
+.projectsTrigger a:hover {
+    text-decoration: underline !important;
+}
+
+.close-btn-pages {
+    position: absolute;
+    top: 7vh;
+    left: 3vh;
+    border: none;
+    background: none;
+    color: rgb(238, 238, 238);
+}
+
+.close-btn-pages:hover {
+    text-decoration: underline !important;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.text-container, .image-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5rem;
+    margin-top: 7rem;
+}
+
+.text-container {
+    max-width: 50%;
+}
+
+.image-container {
+    max-width: 50%;
+}
+
+.image-container img {
+    max-width: 75%;
+    max-height: 85vh;
+    margin-left: 4rem;
+    margin-bottom: 3.5rem;
+}
+
+.project-link {
+    color: rgb(238, 238, 238) !important;
+    text-decoration: none !important;
+}
+
+.project-link:hover {
+    text-decoration: underline !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon {
+    margin-right: 6rem;
+    animation: blinker 3s linear infinite;
+}
+
+.carousel-control-next-icon {
+    margin-left: 5rem;
+    animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+
+

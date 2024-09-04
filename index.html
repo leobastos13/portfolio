@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./public/styles.scss">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <script defer src="src/assets/fontawesome/js/all.js"></script>
+  <link id="theme-style" rel="stylesheet" href="./public/assets/scss/shine.scss">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="app">
+    <div>
+      <p class="Note" id="note">Hi! This is my portfolio, feel free to explore and find out more about me.</p>
+      <p class="aboutTrigger" id="about-trigger">
+        <a href="#">About Me</a>
+      </p>
+      <p class="projectsTrigger" id="projects-trigger">
+        <a href="#">Projects</a>
+      </p>
+      <div id="about" style="display: none">
+        <div class="container-fluid" style="overflow-y: auto !important;">
+          <div class="main-content-wrapper">
+            <div class="container-fluid">
+              <div style="margin-top: 3vh;" class="top-bar">
+                <div class="resume-wrapper mx-auto rounded-2">
+                  <div class="resume-header px-4 px-lg-5">
+                    <div class="resume-profile-holder">
+                      <img class="resume-profile-pic rounded-circle" src="./images/profile.jpg" alt="image">
+                      <h2 class="resume-name text-uppercase">Leonardo Bastos</h2>
+                      <div class="resume-role-title text-uppercase">
+                        <span>Full Stack Developer</span>
+                        <span class="d-block">Level 1 Tennis Coach</span>
+                      </div>
+                      <div class="resume-contact mt-4">
+                        <ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
+                          <li class="list-inline-item me-4"><i
+                              class="resume-contact-icon bi bi-telephone-inbound me-2"></i>+351 911 899 978</li>
+                          <li class="list-inline-item me-4"><i
+                              class="resume-contact-icon bi bi-envelope me-2"></i>leocastrobastos@gmail.com</li>
+                          <li class="list-inline-item me-4"><a href="/"><i
+                                class="resume-contact-icon bi bi-globe me-2"></i>https://leobastos13.github.io/portfolio/</a></li>
+                          <li class="list-inline-item me-4"><a
+                              href="https://github.com/leobastos13"><i
+                                class="resume-contact-icon bi-brands bi-github bi-fw me-2"></i>Github</a></li>
+                          <li class="list-inline-item me-4"><a
+                              href="https://www.linkedin.com/in/leonardo-bastos-013450295/"><i
+                                class="resume-contact-icon bi-brands bi-linkedin bi-fw me-2"></i>Linkdln</a></li> 
+                        </ul>
+                      </div><!--//resume-contact-->
+                    </div><!--//profile-holder-->
+                  </div><!--//resume-header-->
+                  <div class="resume-body p-4 p-lg-5">
+                    <div class="row">
+                      <div class="col-main col-12 col-lg-8 pe-lg-4">
+                        <section class="resume-summary-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3"><i
+                              class="resume-section-heading-icon bi bi-person me-2"></i>About Me</h3>
+                          <div class="resume-summary-desc">
+                            My name is Leonardo Bastos and I'm a young developer from Aveiro, Portugal.
+                          </div>
+                        </section><!--//resume-section-->
+                        <hr>
+                        <section class="resume-experience-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience</h3>
+                          <div class="resume-timeline position-relative">
+                            <article class="resume-timeline-item position-relative pb-5">
+
+                              <div class="resume-timeline-item-header mb-2">
+
+                                <div class="resume-position-meta d-flex justify-content-between mb-1">
+                                  <div class="resume-position-time">Oct 2022 - Aug 2024</div>
+                                  <div class="resume-company-name">CAF - TÉNIS E PADEL</div>
+                                </div>
+                                <h3 class="resume-position-title mb-1">Tennis Coach</h3>
+
+                              </div><!--//resume-timeline-item-header-->
+                              <div class="resume-timeline-item-desc">
+                                <ul class="resume-timeline-list">
+                                  <li>Focused on sessions with children and classes of adults who had no previous contact with the sport</li>
+                                </ul>
+                              </div><!--//resume-timeline-item-desc-->
+                            </article><!--//resume-timeline-item-->
+                            <article class="resume-timeline-item position-relative pb-5">
+                              <div class="resume-timeline-item-header mb-2">
+                                <div class="resume-position-meta d-flex justify-content-between mb-1">
+                                  <div class="resume-position-time">Oct 2021 - Feb 2024</div>
+                                  <div class="resume-company-name">Escola de Ténis São Bernardo</div>
+                                </div>
+                                <h3 class="resume-position-title mb-1">Tennis Coach</h3>
+                              </div><!--//resume-timeline-item-header-->
+                              <div class="resume-timeline-item-desc">
+                                <ul class="resume-timeline-list">
+                                  <li>Focused on sessions with children and classes of adults that already play on a competitive stage</li>
+                                </ul>
+                              </div><!--//resume-timeline-item-desc-->
+                            </article><!--//resume-timeline-item-->
+                            <article class="resume-timeline-item position-relative">
+                              <div class="resume-timeline-item-header mb-2">
+                                <div class="resume-position-meta d-flex justify-content-between mb-1">
+                                  <div class="resume-position-time">May 2020 - Sep 2022</div>
+                                  <div class="resume-company-name">Clube de Ténis de Azeméis</div>
+                                </div>
+                                <h3 class="resume-position-title mb-1">Tennis Coach</h3>
+                              </div><!--//resume-timeline-item-header-->
+                              <div class="resume-timeline-item-desc">
+                                <ul class="resume-timeline-list">
+                                  <li>Focused on sessions with children and teenagers and classes of adults who had no previous contact with the sport</li>
+                                </ul>
+                              </div><!--//resume-timeline-item-desc-->
+                            </article><!--//resume-timeline-item-->
+                          </div><!--//resume-timeline-->
+                        </section><!--//resume-experience-section-->
+                      </div><!--//col-8-->
+                      <div class="col-12 col-lg-4 ps-lg-4">
+                        <section class="resume-educate-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
+                          <ul class="list-unstyled">
+                            <li class="mb-2">
+                              <div class="resume-degree font-weight-bold">BSc in Multimedia and Communication
+                                Technologies
+                              </div>
+                              <div class="resume-degree-org">University of Aveiro</div>
+                              <div class="resume-degree-time">2021 - 2024</div>
+                            </li>
+                          </ul>
+                        </section><!--//resume-section-->
+                        <hr>
+                        <section class="resume-skills-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Skills</h3>
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">JavaScript</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Java</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Python</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Flask</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">React,js</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Node.js</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Express.js</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">SQL</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">PHP</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Git</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">JSON</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">HTML</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">CSS</span></li>
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
+                          </ul>
+                        </section><!--//resume-section-->
+                        <hr>
+                        <section class="resume-skills-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-person-gear me-2"></i>Other Skills</h3>
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><span class="badge resume-skill-badge">Tennis sessions
+                                with<span class="d-block">all age groups</span></span></li>
+                          </ul>
+                        </section><!--//resume-section-->
+                        <hr>
+                        <section class="resume-projects-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-clipboard me-2"></i>Licenses or Certificates</h3>
+                          <div class="item">
+                            <h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a
+                                href="./cedula.pdf" target="_blank">Tennis coach certificate</a></h4>
+                            <div class="item-desc">
+                              Level 1 tennis coach certificate aproved by Federação Portuguesa de Ténis (FPT) and the
+                              Portuguese Institute of Sport and Youth.
+                            </div>
+                          </div>
+                          <div class="item">
+                            <h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a
+                                href="./certidao.pdf" target="_blank">Bachelor's degree certificate</a></h4>
+                            <div class="item-desc">
+                              Issued by the University of Aveiro after the completing my studies there.
+                            </div>
+                          </div>
+                        </section>
+                        <hr>
+                        <section class="resume-lang-section resume-section">
+                          <h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
+                              class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
+                          <ul class="list-unstyled resume-lang-list">
+                            <li class="mb-2">
+                              <div class="resume-lang-name">Portuguese</div>
+                              <div class="resume-level-indicator row gx-0 flex-nowrap">
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                              </div><!--//resume-level-indicator-->
+                            </li>
+                            <li class="mb-2">
+                              <div class="resume-lang-name">English</div>
+                              <div class="resume-level-indicator row gx-0 flex-nowrap">
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-full"></span></div>
+                                <div class="col"><span class="item item-half"></span></div>
+                              </div><!--//resume-level-indicator-->
+                            </li>
+                          </ul>
+                        </section>
+                      </div><!--//col-side-->
+                    </div><!--//row-->
+                  </div><!--//resume-body-->
+                </div><!--//resume-wrapper-->
+              </div><!--//resume-->
+            </div>
+          </div>
+        </div>
+        <button class="close-btn-pages" id="close-about">Back</button>
+      </div>
+      <div id="projects" style="display: none">
+        <div class="container-fluid">
+          <div id="projects-carousel" class="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+              <div id="carousel-item-1" class="carousel-item active">
+                <div class="carousel-container">
+                  <span class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon" role="button" data-slide="prev" aria-hidden="true"></span>
+                  </span>
+                  <div class="text-container">
+                    <div style="position: relative; left: 4rem; bottom: 3rem;" class="text-center">
+                      <h2 style="margin-bottom: 0;">Massaiá</h2>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">Feb 2024 - Jul 2024</span>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">
+                        <a class="project-link" href="https://github.com/anacAraujo/massaia-app" target="_blank"
+                          >https://github.com/anacAraujo/massaia-app</a>  
+                      </span>
+                      <p style="font-size: 1.25rem;">As the final project for my Bachelor's degree, I developed a comprehensive web
+                        solution
+                        for real clients. The project involved building a full-stack application with a React front-end and an Express
+                        back-end. I designed and implemented a MySQL database to manage data efficiently and created an admin platform to
+                        enable clients to easily modify and update website content, ensuring a user-friendly and dynamic experience.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./images/massaia.png" alt="computer frame with image from 1º project">
+                    </div>
+                  </div>
+                  <span class="carousel-control-next">
+                    <span class="carousel-control-next-icon" role="button" data-slide="next" aria-hidden="true"></span>
+                  </span>
+                </div>
+              </div>
+              <div id="carousel-item-2" class="carousel-item">
+                <div class="carousel-container">
+                  <span class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon" role="button" data-slide="prev" aria-hidden="true"></span>
+                  </span>
+                  <div class="text-container">
+                    <div style="position: relative; left: 4rem; bottom: 3rem;" class="text-center">
+                      <h2 style="margin-bottom: 0;">SmashStats</h2>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">Oct 2023 - Dec 2023</span>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">
+                        <a class="project-link" href="https://github.com/leobastos13/SmashStats" target="_blank"
+                          >https://github.com/leobastos13/SmashStats</a>  
+                      </span>
+                      <p style="font-size: 1.25rem;">This is a individual project developed for the Advanced
+                        Client-Side
+                        Technologies curricular unit at the University of Aveiro, where the main goals were to handle
+                        requests
+                        from several free APIs of my choosing, process that information and then build a website using
+                        React.js and
+                        Node.js that showed information from those APIs and also use Firebase and Cloud Firestore
+                      </p>
+                    </div>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./images/smashStats.png" alt="computer frame with image from 2º project">
+                    </div>
+                  </div>
+                  <span class="carousel-control-next">
+                    <span class="carousel-control-next-icon" role="button" data-slide="next" aria-hidden="true"></span>
+                  </span>
+                </div>
+              </div>
+              <div id="carousel-item-3" class="carousel-item">
+                <div class="carousel-container">
+                  <span class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon" role="button" data-slide="prev" aria-hidden="true"></span>
+                  </span>
+                  <div class="text-container">
+                    <div style="position: relative; left: 4rem; bottom: 3rem;" class="text-center">
+                      <h2 style="margin-bottom: 0;">The evolution of Life</h2>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">May 2023 - Jul 2023</span>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">
+                        <a class="project-link" href="https://github.com/anacAraujo/the_evolution_of_life" target="_blank"
+                          >https://github.com/anacAraujo/the_evolution_of_life</a>  
+                      </span>
+                      <p style="font-size: 1.25rem;">The project was carried out in the Database and Server-Side
+                        Technologies curricular unit, at the University of Aveiro, where we developed a game about the
+                        evolution of the Earth's atmosphere, the database and administrative tool that supports it.
+                        Project carried out in partnership with the Porto Planetarium.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./images/evolution.png" alt="computer frame with image from 3º project">
+                    </div>
+                  </div>
+                  <span class="carousel-control-next">
+                    <span class="carousel-control-next-icon" role="button" data-slide="next" aria-hidden="true"></span>
+                  </span>
+                </div>
+              </div>
+              <div id="carousel-item-4" class="carousel-item">
+                <div class="carousel-container">
+                  <span class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon" role="button" data-slide="prev" aria-hidden="true"></span>
+                  </span>
+                  <div class="text-container">
+                    <div style="position: relative; left: 4rem; bottom: 3rem;" class="text-center">
+                      <h2 style="margin-bottom: 0;">Pôr do Sol Experience</h2>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">Jan 2023</span>
+                      <span style="font-size: 1.25rem; color: rgb(238, 238, 238);">
+                        <a class="project-link" href="https://github.com/anacAraujo/por-do-sol" target="_blank"
+                          >https://github.com/anacAraujo/por-do-sol</a>  
+                      </span>
+                      <p style="font-size: 1.25rem;">The project was carried out in the Multimedia Lab 3 curricular
+                        unit, at the University of Aveiro, and aims to create an interactive narrative or game, using
+                        HTML, CSS and JS frameworks, about the television series Pôr do Sol from RTP.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="image-container">
+                    <div>
+                      <img src="./images/porDoSol.png" alt="computer frame with image from 4º project">
+                    </div>
+                  </div>
+                  <span class="carousel-control-next">
+                    <span class="carousel-control-next-icon" role="button" data-slide="next" aria-hidden="true"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="close-btn-pages" id="close-projects">Back</button>
+      </div>
+      <div id="textbox-container" style="display: none">
+        <div id="textbox">
+          <p id="dialogue" class="uiText"></p>
+          <div class="btnContainer">
+            <button id="close" class="uiCloseBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <canvas id="game"></canvas>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
